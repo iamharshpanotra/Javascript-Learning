@@ -1,1 +1,1 @@
-# New-Project
+# A repo on Javascript Learning
