@@ -13,7 +13,7 @@ let isLoggedIn = false
 let state;
 
 /* number => 2 to the power 53
-bigint
+bigint = if number is too large specially in trading or stock marketing , reddit or facebook
 string = " "
 boolean = true/false
 null = standalone value
