@@ -28,5 +28,30 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let randomNumber = 21
 
 let newNumber = String(randomNumber)
-console.log(newNumber)
-console.log(typeof newNumber)
+// console.log(newNumber)
+// console.log(typeof newNumber)
+
+// ************************************Operations************************************** //
+
+let value = 53
+let negValue = -value
+// console.log(negValue)
+
+//console.log(2**3) // ** means to the power
+
+let str1 = "Hey "
+let str2 = "Harsh"
+let str3 = str1 + str2
+// console.log(str3);
+
+
+// console.log("2" + 3)
+// console.log(2 + "3")
+// console.log("2" + "3")
+// console.log(2 + 3 + "2")
+// console.log("2" + 3 + 2)
+
+// console.log(true)
+// console.log(+true)
+// console.log(+false)
+// console.log(+"")
