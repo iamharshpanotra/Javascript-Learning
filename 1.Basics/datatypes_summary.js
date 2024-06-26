@@ -33,3 +33,28 @@ const newFunction = function(){
 }
 
 console.log(typeof newFunction);
+
+
+////////////////////////////////////////////////////////////////
+// Memory Allocation in Javascript
+// 1. Heap Memory used in Non-Primitive - Whenever we define any object we get reference of original value. Original value gets changed when altered.
+// 2. Stack Memory used in Primitive - Whenever we declare a variable we get copy of it
+
+let channelName = "iamharshpanotra"
+
+let anothername = channelName
+anothername = "iamharsharma"
+
+console.log(channelName);
+console.log(anothername);
+
+let userOne = {
+    email: "harsh@amazon.com",
+    upi: "harsh@paytm",
+}
+
+let userTwo = userOne
+userTwo.email = "harsh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
