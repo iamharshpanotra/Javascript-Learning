@@ -1,1 +1,1 @@
-# A repo on Javascript Learning
+Javascript Learning
