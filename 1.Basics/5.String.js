@@ -13,7 +13,7 @@ const gameName = new String('Harsh-JS');
 // console.log(gameName.charAt(5));
 // console.log(gameName.indexOf('r')); //go through all methods of string on MDN 
 // const newString = gameName.substring(0,4)
-// console.log(newString);  
+// console.log(newString);
 
 // const anotherString = gameName.slice(-8,2)
 // console.log(anotherString);
